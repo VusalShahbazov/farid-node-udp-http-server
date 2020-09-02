@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-udp",
+  "version": "1.0.0",
+  "description": "Vac.az real time report for electro",
+  "main": "index.js",
+  "scripts": {
+    "udp-server": "node udp-listener/server.js",
+    "http-server": "node app/http-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0",
+    "winston": "^3.2.1"
+  }
+}

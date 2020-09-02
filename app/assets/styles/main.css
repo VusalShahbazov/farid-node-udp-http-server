@@ -1,0 +1,53 @@
+
+
+.shadow{
+    box-shadow: 0 0 10px #ddd;
+}
+/*====================================================================================================================*/
+/* Custom sizes */
+/*====================================================================================================================*/
+.contain {
+    object-fit: contain !important;
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.overflow-visible {
+    overflow: visible !important;
+}
+
+.font-weight-bolder {
+    font-weight: 900 !important;
+}
+
+.sayqac-text{
+    position: absolute;
+    z-index: 9;
+    font-size: 23px;
+    margin-top: 160px;
+    color: #C7CACD;
+
+}
+
+.sayqac img{
+    height: 560px !important;
+}
+
+@media only screen and (max-width: 1199px){
+    .sayqac-text{
+        margin-top: 160px !important;
+    }
+}
+
+
+.font-11{
+    font-size: 11px;
+}
+
+
